@@ -31,4 +31,15 @@
         android:background="#096105"
         android:textSize="50sp"
         android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:id="@+id/clickMe"
+        android:layout_below="@+id/iLoveAndroid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="#02c2b5"
+        android:onClick="clickFunction" />
 </RelativeLayout>
