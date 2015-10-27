@@ -8,5 +8,27 @@
 
     <TextView android:text="Hi Greg!" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/hiGreg" />
+        android:id="@+id/hiGreg"
+        android:layout_marginLeft="10dp"
+        style="@style/Platform.AppCompat.Dialog"
+        android:background="@color/background_floating_material_dark"
+        android:autoText="false"
+        android:minWidth="160dp"
+        android:padding="10dp"
+        android:textColor="@color/material_deep_teal_200"
+        android:textSize="@dimen/abc_text_size_subhead_material" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Love Android"
+        android:id="@+id/iLoveAndroid"
+        android:layout_below="@+id/hiGreg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:minWidth="400dp"
+        android:textColor="#ecdd08"
+        android:background="#096105"
+        android:textSize="50sp"
+        android:padding="10dp" />
 </RelativeLayout>
