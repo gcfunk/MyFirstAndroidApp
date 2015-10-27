@@ -50,4 +50,13 @@
         android:layout_below="@+id/clickMe"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myImage"
+        android:layout_alignBottom="@+id/hiGreg"
+        android:layout_toRightOf="@+id/clickMe"
+        android:layout_toEndOf="@+id/clickMe"
+        android:src="@drawable/pug" />
 </RelativeLayout>
