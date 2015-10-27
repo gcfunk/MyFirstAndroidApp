@@ -6,11 +6,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends ActionBarActivity {
 
     public void clickFunction(View view) {
-        Log.i("Info", "Hello Greg!");
+        EditText myTextField = (EditText) findViewById(R.id.textField);
+        Log.i("TextField Value", myTextField.getText().toString());
     }
 
     @Override
