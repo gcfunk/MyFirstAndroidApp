@@ -7,12 +7,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
     public void clickFunction(View view) {
         EditText myTextField = (EditText) findViewById(R.id.textField);
         Log.i("TextField Value", myTextField.getText().toString());
+        Toast.makeText(getApplicationContext(), myTextField.getText().toString(), Toast.LENGTH_LONG).show();
     }
 
     @Override
